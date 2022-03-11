@@ -1,0 +1,40 @@
+.sidebar{
+    flex: 1;
+    background: whitesmoke;
+    height: calc(100vh - 5rem);
+    position: sticky;
+    top: 5rem;
+    left: 0;
+    overflow: visible;
+}
+.sidebarWrapper{
+    padding: 2rem;
+    color: rgb(44, 44, 44);
+}
+.sidebarMenu{
+    margin-bottom: 1rem;
+}
+.sidebarTitle{
+    font-size: 13px;
+}
+.sidebarList{
+    list-style: none;
+    padding: 5px;
+}
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px 0;
+}
+.sidebarListItem.active,
+.sidebarListItem:hover{
+    background: rgb(197, 213, 248);
+    border-radius: 6px;
+    transition: .5s;
+}
+.sidebarIcon{
+    margin-right: .2rem;
+    font-size: 20px !important;
+}

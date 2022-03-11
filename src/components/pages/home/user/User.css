@@ -1,0 +1,134 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userAddButton{
+    padding: .7rem;
+    border: none;
+    box-shadow: .2px .2px 3px .2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    background: whitesmoke;
+    font-weight: bold;
+}
+.userContainer{
+    display: flex;
+    margin-top: 2rem;
+}
+.userShow{
+    padding: 20px;
+    flex: 1;
+    box-shadow: .2px .2px 3px .2px black;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: .2px .2px 3px .2px black;
+}
+.userShowTop{
+    display: flex;
+    align-items: center;
+
+}
+.userShowImg{
+    height: 70px;
+    width: 65px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.userShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.userShowTitle{
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+}
+.userShowUsername{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.userShowUserTitle{
+    font-weight: 500;
+}
+.userShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.userShowIcon{
+    margin-right: 10px;
+}
+
+
+.userUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userUpdateTitle{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.userUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.userUpdateItem label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.userUpdateInput{
+    height: 2rem;
+    border: none;
+    width: 25rem;
+    padding-left: .5rem;
+    border-bottom: 1px groove #333;
+    border-radius: 5px;
+    outline: none;
+}
+.userUpdateInput:focus{
+    background: rgb(230, 230, 230);
+}
+
+.userUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userUpdateUpload{
+    display: flex;
+    flex-direction: column;
+}
+
+.userUpdateImg{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.userUpdateIcon{
+    cursor: pointer;
+}
+.userUpdateButton{
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    box-shadow: .5px .5px 4px .5px black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}

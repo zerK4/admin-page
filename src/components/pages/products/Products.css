@@ -1,0 +1,34 @@
+.products{
+    flex: 4;
+    height: auto;
+}
+.productList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productListImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+.productListEdit{
+    border: none;
+    font-weight: bold;
+    font-size: .8rem;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    color: rgb(44, 44, 78);
+    justify-content: space-between;
+    box-shadow: .2px .2px 3px .2px black;
+    cursor: pointer;
+    background: rgb(70, 233, 97, .8);
+    margin-right: 2rem;
+}
+.productListDelete{
+    color: red;
+    cursor: pointer;
+}
